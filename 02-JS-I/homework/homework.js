@@ -259,6 +259,9 @@ function deEuroAdolar(euro){
   return convert;
 }
 
+var nt = deEuroAdolar(57);
+console.log(nt);
+
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
